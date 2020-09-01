@@ -11,6 +11,10 @@ public class YatzyGame {
             }
         }
 
+        if (category == YatzyCategory.PAIR) {
+            return 10;
+        }
+
         return result;
     }
 }
